@@ -9,10 +9,10 @@
   --paper: #f7f9f8;
   --ember: #e8963c;
   --ember-bright: #f2ab5e;
-  --signal: #1f7a6c;
+  --signal: #32a997;
   --signal-bright: #2f9987;
   --ash: #9fb0ac;
-  --ash-dark: #4f625d;
+  --ash-dark: #64988a;
   --ink: #16232b;
 
   --font-display: "Archivo", sans-serif;
@@ -79,7 +79,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--steel-white); }
-.brand-mark { width: auto; height: 44px; flex-shrink: 0; border-radius: 16px; }
+.brand-mark { width: auto; height: 44px; flex-shrink: 0; border-radius: 20px; }
 .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.01em; }
 .brand-name span { color: var(--ember-bright); }
 
