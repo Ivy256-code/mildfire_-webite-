@@ -3,23 +3,23 @@
    ========================================================================== */
 
 :root {
-  --charcoal: #15181b;
-  --charcoal-raised: #1c2023;
-  --steel-white: #eef0ef;
-  --paper: #f7f8f7;
-  --ember: #b8441e;
-  --ember-bright: #d15a2e;
-  --signal: #3e6b8a;
-  --signal-bright: #5588a8;
-  --ash: #9aa3aa;
-  --ash-dark: #4a5157;
-  --ink: #1b1f22;
-
+   --charcoal: #16232b;
+  --charcoal-raised: #1e2f38;
+  --steel-white: #eef2f0;
+  --paper: #f7f9f8;
+  --ember: #e8963c;
+  --ember-bright: #f2ab5e;
+  --signal: #1f7a6c;
+  --signal-bright: #2f9987;
+  --ash: #9fb0ac;
+  --ash-dark: #4f625d;
+  --ink: #16232b;
+  
   --font-display: "Archivo", sans-serif;
   --font-body: "IBM Plex Sans", sans-serif;
 
   --gutter: clamp(1.25rem, 4vw, 3rem);
-  --max-width: 1200px;
+
 }
 
 *, *::before, *::after { box-sizing: border-box; }
