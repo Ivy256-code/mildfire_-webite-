@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Mildfire Safety &amp; Protection Technologies</title>
+  <meta name="description" content="Get in touch with Mildfire for a fire safety risk assessment or to discuss protection systems for your site." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo.jpeg" alt="" class="brand-mark" />
+        <span class="brand-name">MILD<span>FIRE</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <p class="section-label">Contact</p>
+        <h1>Tell us about your site.</h1>
+      </div>
+    </div>
+
+    <section>
+      <div class="container contact-layout">
+        <div class="contact-details">
+          <p class="section-intro" style="margin-bottom: 2rem;">Reach out for a risk assessment, a quote on a specific system, or general questions about how we work.</p>
+          <dl>
+            <dt>Email</dt>
+            <dd>info@mildfire.example</dd>
+            <dt>Phone</dt>
+            <dd>+256 000 000 000</dd>
+            <dt>Office</dt>
+            <dd>Kampala, Uganda</dd>
+            <dt>Hours</dt>
+            <dd>Monday – Friday, 8:00 – 17:00</dd>
+          </dl>
+        </div>
+
+        <form class="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-field">
+            <label for="client-type">Client type</label>
+            <select id="client-type" name="client-type">
+              <option value="commercial">Commercial</option>
+              <option value="industrial">Industrial</option>
+              <option value="residential">Residential</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">What do you need help with?</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note form-status">This form isn't connected to a backend yet — wiring it up is a good next step once the static site is live.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2026 Mildfire Safety &amp; Protection Technologies Ltd.</span>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
